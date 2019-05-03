@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  color: #494949;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.banner {
+    background-image: url(https://www.ianboer.com.au/wp-content/uploads/2016/01/Upright-Glass-Door-Display-Fridges-Freezers.jpg);
+    background-size: cover;
+    padding: 120px 0;
+}
+
+
+div {
+    display: block;
+}
+
+h1, h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  color: #034900;
+}
+
+.banner h1 {
+    font-size: 38px;
+}
+
+.banner p {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+h2 {
+    color: #A0A0A0;
+    font-weight: normal;
+}
+
+.link-medium {
+    background-color: rgba(233, 253, 240, 1);
+    color: #9dc4cc;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.link-medium:hover {
+  background-color: #2f707c;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+    color: black;
+  }
+
